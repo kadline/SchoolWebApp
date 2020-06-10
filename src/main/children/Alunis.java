@@ -1,5 +1,7 @@
 package main.children;
 
+import main.subjects.Subject;
+
 public class Alunis {
 
     private String firstName;
@@ -7,6 +9,7 @@ public class Alunis {
     private int schoolYear;
     private int age;
     private int workload = 45;
+    private Subject[] subjects;
 
     public String getFirstName() {
         return firstName;
@@ -46,5 +49,11 @@ public class Alunis {
 
     public void setWorkload(int workload) {
         this.workload = workload;
+    }
+
+    public void addSubject(Subject subject){
+        for(int i = 0; i<subjects.length; i++){
+            subjects[i] = subject;
+        }
     }
 }
