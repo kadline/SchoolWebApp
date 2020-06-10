@@ -1,6 +1,6 @@
 package main.children;
 
-public class alunis {
+public class Alunis {
 
     private String firstName;
     private String lastname;

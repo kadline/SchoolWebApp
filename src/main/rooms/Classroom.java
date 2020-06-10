@@ -1,6 +1,6 @@
 package main.rooms;
 
-public class classroom {
+public class Classroom {
 
     private int roomNumb;
     private int maxAlunis = 20;
